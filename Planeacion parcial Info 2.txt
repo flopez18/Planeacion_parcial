@@ -1,0 +1,46 @@
+Tener presente:
+-Gestionar la información del curso
+-Gestionar la información del horario
+-Gestionar jornadas de estudio
+
+Propuesta tentativa para una solución.
+Para el primer punto, se piensa cargar un archivo desde una función con la información de 
+los cursos disponibles para el semestre que el usuario elija suponiendo que ya aprobó el resto de 
+mateiras en los anteriores.
+Cada archivo llevará las materias correspondientes dependiendo de la carrera y el semestre que se
+elija.
+Abrá otro archivo donde se cree la información del horario del usuario.
+El tiempo de las clases se tomará desde lunes a viernes desde las 6 am hasta las 8 pm, siempre una clase tomará 2 horas y
+los cursos o materias no tendrán un horario establecido, es decir, que cada 2 horas hay un profesor
+disponible para dictar el curso a cualquier hora del tiempo establecido.
+El profesor no se especificará.
+Se tendrá en cuenta en el archivo:
+Código - Nombre materia - Numero de horas con docente (NHD) - Numero de horas individuales (NHI).
+También se le preguntará el nombre, nivel a cursar, carrera, para generar el archivo correspondiente.
+Se generará un error en caso de que el usuario ponga una carrera no estipulada por el menú y un nivel
+a cursar no válido.
+
+Se mostrará un pequeño menú en pantalla una vez cargado el archivo, para que el ususario tenga mayor
+libertad a la hora de gestionar el horario.
+
+Para el segundo punto, una vez cargada la información del curso, el ususario debe de elejir un numero
+de materias y asignarlas a las horas que estén disponibles según indique su horario.
+Abrá una materia adicional llamada "Ocupado" que se usará para que el usuario separe el tiempo
+en otras tareas y así el gestor de estudio no intervenga en los tiempos de otras ocupaciones.
+Se mostrará en pantalla las horas a la semana y las horas totales del semestre que se deben implementar para una
+correcta ejecución del tiempo.
+Se producirá un error si el ususario asigna dos materias en el mismo tiempo del horario.
+El ususario solo podrá asignar espacio en las 24 horas solo para la materia "Ocupado", de lo contrario generará 
+un error.
+El usuario podrá asignar y eliminar asignación de espacio del horario como se le antoje y teniendo en cuenta
+los requerimientos ya estipulados.
+
+
+Para el tercer punto, se desplegará una pantalla con el tiempo utilizado y el libre, donde el gestor de estudio
+empezará a hacer sugerencias y se priorice según la cantidad de materias y horas las cuales el usuario podrá 
+elegir si tomar la sugerencia y se actulizará cada vez que el usuario modifique su horario.
+
+
+
+
+
